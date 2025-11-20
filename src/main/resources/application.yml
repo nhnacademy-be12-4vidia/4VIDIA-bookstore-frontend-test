@@ -2,6 +2,8 @@ spring:
   application:
     name: 4vidia-bookstore-front-test
 
+
+
 eureka:
   client:
     register-with-eureka: true

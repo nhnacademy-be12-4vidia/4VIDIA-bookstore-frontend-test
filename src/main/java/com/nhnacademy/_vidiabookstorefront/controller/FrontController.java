@@ -20,6 +20,7 @@ public class FrontController {
     public String index(Model model) {
         String result = frontService.getBook();
         model.addAttribute("bookMessage", result);
+
         return "index";
     }
 }

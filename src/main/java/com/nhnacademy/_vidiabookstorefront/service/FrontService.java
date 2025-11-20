@@ -17,6 +17,7 @@ public class FrontService {
     public String getBook() {
 
         String url = "http://api-gateway/book-service/hello/books";
+        // API Gateway 호출에서는 포트를 안 적어두 된다.
 
         return restTemplate.getForObject(url, String.class);
     }
