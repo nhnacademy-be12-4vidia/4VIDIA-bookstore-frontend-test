@@ -1,6 +1,6 @@
 spring:
   application:
-    name: frontend-service
+    name: 4vidia-bookstore-front-test
 
 eureka:
   client:
