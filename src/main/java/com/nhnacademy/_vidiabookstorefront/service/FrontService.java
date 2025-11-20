@@ -16,7 +16,7 @@ public class FrontService {
 
     public String getBook() {
 
-        String url = "http://api-gateway/book-service/hello/books";
+        String url = "http://api-gateway:10463/book-service/hello/books";
 
         return restTemplate.getForObject(url, String.class);
     }
